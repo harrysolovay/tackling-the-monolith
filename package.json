@@ -1,0 +1,23 @@
+{
+  "name": "tackling-the-monolith",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "author": "Harry Solovay <harrysolovay@gmail.com> (harrysolovay.com)",
+  "keywords": [
+    "lerna",
+    "yarn",
+    "workspaces",
+    "guide",
+    "walkthrough",
+    "tutorial",
+    "explanation"
+  ],
+  "devDependencies": {
+    "doctoc": "^1.4.0"
+  },
+  "scripts": {
+    "doctoc": "doctoc README.md --maxlevel 2 --notitle"
+  }
+}
